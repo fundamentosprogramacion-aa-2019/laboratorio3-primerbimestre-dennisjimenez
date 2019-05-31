@@ -38,13 +38,13 @@ public class Laboratorio3 {
             contador = contador +1;//contador
             //Ingresar datos
             System.out.println("Ingrese su nombre:");
-            nombre = entrada.nextLine();
+            nombre = entrada.nextLine();//Datos ingresados por usuario
 
             System.out.println("Ingrese su apellido:");
-            apellido = entrada.nextLine();
+            apellido = entrada.nextLine();//Datos ingresados por usuario
             
             System.out.println("Ingrese los goles:");
-            goles = entrada.nextInt();
+            goles = entrada.nextInt();//Datos ingresados por usuario
             tGoles = tGoles + goles;//Suma de goles
             
             System.out.println("Ingrese el sueldo:");
